@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="24dp"
+	android:id="@+id/lly"
+	android:background="@drawable/dialog_background">
+
+	<TextView
+		android:id="@+id/dialog_title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="&quot;保存图片&quot;申请存储权限"
+		android:textColor="#000000"
+		android:textSize="18sp"
+		android:gravity="center"
+		android:layout_marginBottom="16dp"
+		android:textStyle="bold"/>
+
+	<TextView
+		android:id="@+id/dialog_content"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#5C5C5C"
+		android:textSize="14sp"
+		android:lineSpacingExtra="8dp"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Button
+			android:id="@+id/button_disagree"
+			android:layout_width="0dp"
+			android:layout_height="48dp"
+			android:layout_weight="1"
+			android:background="@drawable/button_disagree_background"
+			android:text="不允许"
+			android:textColor="#55726464"
+			android:textSize="16sp"/>
+
+		<View
+			android:layout_width="16dp"
+			android:layout_height="0dp"/>
+
+		<Button
+			android:id="@+id/button_agree"
+			android:layout_width="0dp"
+			android:layout_height="48dp"
+			android:layout_weight="1"
+			android:background="@drawable/button_agree_background"
+			android:text="去设置"
+			android:textColor="#FFFFFF"
+			android:textSize="16sp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
